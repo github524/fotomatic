@@ -405,3 +405,13 @@ footer .copyright {
   }
 }
 
+#switchPages {
+  margin: 0 auto;
+  width:300px;
+  color: blue;
+  
+}
+#switchPages a {
+  text-decoration: underline;
+  color:white;
+}
