@@ -34,6 +34,7 @@ html {
   .main-content {
     top: 2.5625rem;
   }
+  
 }
 
 /* Header */
@@ -392,11 +393,11 @@ footer {
 footer .content {
   color: white;
   display: flex;
-  font-size: .75rem;
+  font-size: 1rem;
 }
 
 footer .copyright {
-  flex-grow: 1;
+  /* flex-grow: 1; */
 }
 
 @media only screen and (min-width: 760px) {
@@ -405,13 +406,16 @@ footer .copyright {
   }
 }
 
-#switchPages {
-  margin: 0 auto;
-  width:300px;
+.switchPages {
+  /* clear: both; */
+  margin: 10px auto;
   color: blue;
   
+  
 }
-#switchPages a {
+.switchPages a {
   text-decoration: underline;
-  color:white;
+  color:rgb(43, 43, 128);
+  font-size: 2rem!important;
+  margin: 10px;
 }
